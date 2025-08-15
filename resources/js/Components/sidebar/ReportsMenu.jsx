@@ -38,13 +38,13 @@ export function ReportsMenu({ userRole, isCollapsed }) {
         {
             href: route("cost-activity-allocations.index"),
             active: route().current("cost-activity-allocations.*"),
-            label: "Alokasi Biaya ke Aktivitas",
+            label: "Alokasi Biaya",
             icon: Split,
         },
         {
             href: route("abc-reports.index"),
             active: route().current("abc-reports.*"),
-            label: "Laporan ABC Lengkap",
+            label: "Laporan ABC",
             icon: BarChart3,
         },
     ];
